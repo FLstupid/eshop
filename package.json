@@ -8,6 +8,8 @@
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build",
+    "build-admin-prod": "ng build admin --prod --output-path ../admin --base-href /admin/",
+    "build-prod": "ng build ngshop --prod --output-path ../ngshop --base-href /ngshop/",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
